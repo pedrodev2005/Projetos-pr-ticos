@@ -1,2 +1,2 @@
-# Projetos-pr-ticos
+# Projetos praticos
 Projetos práticos
