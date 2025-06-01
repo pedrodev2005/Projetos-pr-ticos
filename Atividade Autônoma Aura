@@ -1,0 +1,98 @@
+# AULA 06 #
+
+Atividade Autônoma Aura:
+Questão 1) (COSULPLAN-TRF, 2017) Na orientação a objetos o encapsulamento é um mecanismo
+utilizado para restringir o acesso ao comportamento interno de um objeto. O objeto requisitante
+envia uma mensagem e não precisa conhecer a forma pela qual a operação requisitada é realizada,
+tudo o que importa ao objeto remetente é a realização da operação. Na linguagem Java, os
+modificadores de acesso que aplicam o princípio de encapsulamento, definindo a visibilidade de um
+atributo ou método dentro de uma classe, definem que:
+
+I. Apenas membros da classe possuem acesso.
+II. Apenas membros da classe e subclasse possuem acesso.
+III. Todos possuem acesso.
+IV. Somente classe do mesmo pacote possuem acesso.
+
+a) I. Protected II. Private III. Public IV. Default.
+b) I. Protected II.Private III.Default IV.Public.
+c) I. Private II.Default III.Public IV.Protected.
+✅d) I. Private II. Protected III. Public IV. Default.
+e) I. Private II. Public III. Public IV. Default.
+
+Questão 2) (FUNCAB-MDA, 2014) Em Java, para determinar o nível de acesso dos elementos de
+uma classe, são utilizados qualificadores de acesso. Um nível ALFA é considerado o mais rígido,
+em que apenas os métodos da própria classe tem acesso a variáveis e outros métodos, enquanto
+o nível BETA e intermediário de encapsulamento em que as variáveis e métodos podem ser
+acessados pela própria classe ou subclasses.
+Os níveis ALFA
+e BETA caracterizam, respectivamente, os seguintes qualificadores de acesso:
+
+a) protected e public.
+✅b) private e protected.
+c) priority e private.
+d) public e package.
+e) package e priority.
+
+# AULA 07 #
+
+Atividade Autônoma Aura:
+Questão 1: (FAURGS-HCPA, 2016) No que se refere a classes abstratas e polimorfismo, assinale com V
+(verdadeiro) ou F (falso) as afirmações abaixo:
+( ) Classes abstratas não podem ser instanciadas.
+( ) Todos os métodos de uma classe abstrata devem estar sobrescritos na classe concreta que a
+estende.
+( ) Uma classe concreta corresponde a uma generalização de uma classe abstrata.
+( ) Diferentes classes concretas de uma mesma classe abstrata podem sobrescrever o mesmo método.
+A sequência correta de preenchimento dos parênteses, de cima para baixo, é:
+
+✅a) V - F - F - V.
+b) F - V - V - F.
+c) V - V - F - F.
+d) F - F - V - V.
+e) V - V - F - V.
+
+Questão 2: (FCC-SANASA Campinas, 2019) Considere que um Analista de TI sabe que uma classe
+Pessoa Física e uma classe Pessoa Jurídica possuem o atributo nome como uma informação em
+comum e que o CPF é um atributo específico para a Pessoa Física e o CNPJ é um atributo
+específico para Pessoa Jurídica. Então o Analista criou uma outra classe com o atributo nome e
+seu objetivo é que haja herança deste e, eventualmente, outros métodos e atributos, para as
+classes filhas, Pessoa Física e Pessoa Jurídica, que já existiam.
+Essa classe criada não é instanciada, apenas fornece um modelo para geração de outras classes, e
+é denominada:
+
+a) Subclasse
+b) Classe construtora
+✅c) Classe abstrata
+d) Classe sobescrita
+e) Pacote
+
+# AULA 08 #
+
+Atividade Autônoma Aura:
+Questão 1: Um programador está desenvolvendo um sistema na linguagem de programação Java
+no qual uma das classes pode aproveitar métodos de outras duas classes diferentes, sendo que
+uma delas, é uma interface. No entanto, esse programador sabe que a linguagem Java não
+possui suporte a herança múltipla. Ele então pensou uma solução distinta que poderia ajudá-lo a
+implementar sua ideia. Qual seria essa solução?
+
+a) O programador, mesmo sabendo que a linguagem Java não implementa a herança múltipla,
+poderia forçar tal comportamento por conta e risco, nesse caso, o interpretador apenas emitiria
+um alerta.
+b) O programador poderia herdar os métodos da interface e implementar os métodos da classe.
+✅c) O programador poderia herdar métodos da classe e implementar os métodos da interface.
+d) O programador poderia sobrescrever os métodos da classe e da interface.
+e) Não existe nenhuma solução para esse problema.
+
+
+Questão 2: O conceito e orientação a objetos permite a herança múltipla que é quando uma
+classe herda propriedades e comportamentos de mais de uma superclasse. Diferentes linguagens
+de programação orientadas a objetos variam quanto ao tratamento de herança múltipla, algumas
+linguagens de programação permitem herança de múltiplas superclasses, outras não. Java não
+permite herança múltipla de classes, mas fornece uma outra construção que utiliza interfaces.
+Assinale a alternativa que apresenta um trecho de código Java correto para a declaração de uma
+classe Java que simula a herança múltipla.
+a) public class Ornitorrinco extends Mamifero, Ave { /* corpo da classe */ }
+b) public class Ornitorrinco inherits Mamifero implements Ave, Animal {/* corpo da classe */ }
+c) public class Ornitorrinco extends Mamifero, Ave implements Animal { /* corpo da classe */ }
+d) public class Ornitorrinco inherits Mamifero, Ave, Animal {/** corpo da classe */ }
+✅e) public class Ornitorrinco extends Mamifero implements Ave, Animal { /** corpo da classe */ }
